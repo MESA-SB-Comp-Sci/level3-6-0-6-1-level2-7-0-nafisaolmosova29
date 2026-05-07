@@ -4,4 +4,43 @@
     margin: 0;
 }
 
-/* write all your rules below */
+.heading { 
+    display:flex;
+    background-color: pink;
+    border: 8px solid red; 
+    color: black;
+    margin:60px; 
+}
+
+.box1 { 
+    display: flex; 
+    padding: 70px;
+    background-color: #85f4f4;
+    border: 2px solid #9ef6f6;
+    margin: 10px auto 
+
+}
+
+.box2 { 
+    display: flex; 
+    background-color: yellow;
+    padding: 40px; 
+    border:8px solid pink; 
+    margin: 20px;  
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#blue {
+    color:blue
+
+}
+
+#green {
+    color:green;
+}
+
+.purple {
+   color:purple; 
+}
