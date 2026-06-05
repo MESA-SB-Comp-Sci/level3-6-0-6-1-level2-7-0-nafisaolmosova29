@@ -10,25 +10,30 @@
     border: 8px solid red; 
     color: black;
     margin:60px; 
+    width:60vw; 
 }
 
 .box1 { 
     display: flex; 
     padding: 70px;
+    height: 35vh;
     background-color: #85f4f4;
     border: 2px solid #9ef6f6;
     margin: 10px auto 
+    
 
 }
 
 .box2 { 
     display: flex; 
     background-color: yellow;
-    padding: 40px; 
+    /* padding: 40px;  */
     border:8px solid pink; 
     margin: 20px;  
     align-items: flex-start;
     justify-content: flex-start;
+    width:50vw;
+    height: 20vh;  
 
 }
 
